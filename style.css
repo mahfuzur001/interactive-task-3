@@ -1,0 +1,244 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    background: #FEFEFE;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav .logo img{
+    height: 70px;
+    /* margin-left: 20px; */
+}
+.menu ul{
+    display: flex;
+    align-items: end;
+    /* justify-content: ; */
+    gap: 15px;
+    margin-top: 35px;
+}
+.menu ul li{
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+.reg{
+    margin-top: 35px;
+}
+
+.btn{
+    background: #54B8FF;
+    color:#FFFFFF;
+    margin: 10px;
+    padding:5px 10px;
+    text-decoration: none;
+}
+.btn:hover{
+    background: #0b8eec;
+    font-size: 18px;
+}
+/* nav end */
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(asset/side1.png),url(asset/side2.png),url(asset/side3.png),url(asset/side4.png),url(asset/side5.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom left,top right,bottom right,top center;
+    margin-bottom: 30px;
+}
+.hero-img{
+    width: 50%;
+    /* padding: 40px; */
+    justify-content: end;
+}
+.hero-img{
+    height: 200px;
+}
+.hero-text{
+    margin-top: 250px;
+    margin-left: 50px;
+    padding: 0 8%;
+}
+.hero-text h5{
+   font-weight: 400;
+}
+.hero-text h2{
+    font-size: 50px;
+    line-height: 45px;
+}
+.hero-text p{
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+.hero-text a i{
+    margin-left: 5px;
+}
+/* best teacher */
+.teacher{
+    display: flex;
+    margin-bottom: 150px;
+    /* flex: 1;/ */
+}
+.teacher-img{
+    height: 400px;
+    margin-top: 150px;
+    flex: 1;
+}
+.teacher-text{
+margin-top: 400px;
+flex: 1;
+}
+.teacher-text h2{
+font-size: 40px;
+}
+.teacher-text p{
+margin-bottom: 30px;
+}
+/* service */
+.service-area{
+display: flex;
+justify-content: center;
+width: 80%;
+margin: 0 auto;
+
+}
+.service{
+    background-image: url(asset/Vector.png),url(asset/Vector.png),url(asset/Vector1\(1\).png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right,top right;
+}
+.single-service{
+    text-align: center;
+    flex: 1;
+    padding: 50px;
+
+}
+.single-service img{
+    width: 50px;
+}
+/* course */
+.course{
+margin-bottom: 30px;
+background: url(asset/side6.png),url(asset/side7.png);
+background-repeat: no-repeat;
+background-position: top left,right bottom;
+}
+.course-card{
+margin-top: 50px;
+display: flex;
+justify-content: space-around;
+}
+.course-area{
+width: 80%;
+margin: 0 auto;
+margin-top: 30px;
+}
+.course-area h2{
+font-size: 40px;
+}
+.course-area p{
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 200;
+}
+.course-icon span{
+font-size: 14px;
+}
+.course-icon {
+    display: flex;
+    gap: 10px;
+}
+/* learning */
+.learning{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+
+}
+.learning-text{
+    flex: 1;
+}
+.learning-text p{
+    font-weight: 100;
+}
+.learning-text h2{
+    font-size: 50px;
+}
+.learning-text p{
+    margin: 30px 0;
+}
+.learning-text a{
+    margin-top: 30px;
+}
+.learning-img{
+    flex: 1;
+    /* position: absolute;
+    top: 30px; */
+    background-image: url(asset/side8.png),url(asset/side9.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+    overflow: hidden;
+    
+}
+.learning-img img{
+    height: 450px;
+    margin-left: 120px;
+}
+/* contact */
+.contact-area{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    background: #92cde7;
+    position: relative;
+    
+}
+.contact-text{
+    width: 50%;
+    padding: 50px;
+    /* position: relative; */
+    
+}
+.contact-text h2{
+    font-size: 50px;
+}
+.contact-text input{
+    padding: 20px;
+    
+}
+.contact-text i{
+    position: relative;
+    left: 200px;
+    top: 5px;
+    font-size: 30px;
+    color: wheat;
+    padding: 3px;
+    background: #040129;
+}
+/* footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.footer-icon{
+display: flex;
+justify-content: space-between;
+}
+footer iframe{
+    /* width: 300px; */
+    height: 200px;
+}
